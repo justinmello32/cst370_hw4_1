@@ -42,10 +42,31 @@ int main() {
         }
     }
 
+    //Calculation 2
+    for(int i = 0, j = 0; i < count; i++) {
+        if(j == count)
+            break;
+        if(results2[j] > 0) {
+            j++;
+            i--;
+        }
+        else {
+            temp = results2[i];
+            results2[i] = results2[j];
+            results2[j] = temp;
+            j++;
+        }
+    }
+
     //Display Results
     for(int i = 0; i < count; i++) {
         cout << results1[i] << " ";
     }
+    cout << endl;
+    for(int i = 0; i < count; i++) {
+        cout << results2[i] << " ";
+    }
+
 
     return 0;
 }
