@@ -1,3 +1,13 @@
+/*
+ * Title: hw4_1.cpp
+ * Abstract: This program reads a number of input values and the
+ *           values themselves. Then, the program puts all
+ *           negative numbers in front of all positive numbers.
+ * Author: Justin Mello
+ * ID: 2002
+ * Date: 04/01/2021
+ */
+
 #include <iostream>
 
 using namespace std;

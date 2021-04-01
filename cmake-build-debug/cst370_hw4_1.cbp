@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/justinmello/Documents/school/cst370/cst370_hw4_1/main.cpp">
+		<Unit filename="/Users/justinmello/Documents/school/cst370/cst370_hw4_1/hw4_1.cpp">
 			<Option target="cst370_hw4_1"/>
 		</Unit>
 		<Unit filename="/Users/justinmello/Documents/school/cst370/cst370_hw4_1/CMakeLists.txt">

@@ -77,27 +77,27 @@ include CMakeFiles/cst370_hw4_1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cst370_hw4_1.dir/flags.make
 
-CMakeFiles/cst370_hw4_1.dir/main.cpp.o: CMakeFiles/cst370_hw4_1.dir/flags.make
-CMakeFiles/cst370_hw4_1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/justinmello/Documents/school/cst370/cst370_hw4_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cst370_hw4_1.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cst370_hw4_1.dir/main.cpp.o -c /Users/justinmello/Documents/school/cst370/cst370_hw4_1/main.cpp
+CMakeFiles/cst370_hw4_1.dir/hw4_1.cpp.o: CMakeFiles/cst370_hw4_1.dir/flags.make
+CMakeFiles/cst370_hw4_1.dir/hw4_1.cpp.o: ../hw4_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/justinmello/Documents/school/cst370/cst370_hw4_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cst370_hw4_1.dir/hw4_1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cst370_hw4_1.dir/hw4_1.cpp.o -c /Users/justinmello/Documents/school/cst370/cst370_hw4_1/hw4_1.cpp
 
-CMakeFiles/cst370_hw4_1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cst370_hw4_1.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/justinmello/Documents/school/cst370/cst370_hw4_1/main.cpp > CMakeFiles/cst370_hw4_1.dir/main.cpp.i
+CMakeFiles/cst370_hw4_1.dir/hw4_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cst370_hw4_1.dir/hw4_1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/justinmello/Documents/school/cst370/cst370_hw4_1/hw4_1.cpp > CMakeFiles/cst370_hw4_1.dir/hw4_1.cpp.i
 
-CMakeFiles/cst370_hw4_1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cst370_hw4_1.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/justinmello/Documents/school/cst370/cst370_hw4_1/main.cpp -o CMakeFiles/cst370_hw4_1.dir/main.cpp.s
+CMakeFiles/cst370_hw4_1.dir/hw4_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cst370_hw4_1.dir/hw4_1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/justinmello/Documents/school/cst370/cst370_hw4_1/hw4_1.cpp -o CMakeFiles/cst370_hw4_1.dir/hw4_1.cpp.s
 
 # Object files for target cst370_hw4_1
 cst370_hw4_1_OBJECTS = \
-"CMakeFiles/cst370_hw4_1.dir/main.cpp.o"
+"CMakeFiles/cst370_hw4_1.dir/hw4_1.cpp.o"
 
 # External object files for target cst370_hw4_1
 cst370_hw4_1_EXTERNAL_OBJECTS =
 
-cst370_hw4_1: CMakeFiles/cst370_hw4_1.dir/main.cpp.o
+cst370_hw4_1: CMakeFiles/cst370_hw4_1.dir/hw4_1.cpp.o
 cst370_hw4_1: CMakeFiles/cst370_hw4_1.dir/build.make
 cst370_hw4_1: CMakeFiles/cst370_hw4_1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/justinmello/Documents/school/cst370/cst370_hw4_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cst370_hw4_1"
