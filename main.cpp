@@ -9,11 +9,16 @@ int main() {
     int end = 0;
     int temp = 0;
 
-    //Get user input, populate array
+    //Get user input, populate arrays
     cin >> count;
     int numbers[count];
+    int results1[count];
+    int results2[count];
+
     for(int i = 0; i < count; i++) {
         cin >> numbers[i];
+        results1[i] = numbers[i];
+        results2[i] = numbers[i];
     }
 
     end = count;
@@ -23,12 +28,12 @@ int main() {
         if(i == j) {
             break;
         }
-        if(numbers[i] > 0) {
+        if(results1[i] > 0) {
 
-            if(numbers[j] < 0) {
-                temp = numbers[i];
-                numbers[i] = numbers[j];
-                numbers[j] = temp;
+            if(results1[j] < 0) {
+                temp = results1[i];
+                results1[i] = results1[j];
+                results1[j] = temp;
             }
             else {
                 j--;
@@ -39,7 +44,7 @@ int main() {
 
     //Display Results
     for(int i = 0; i < count; i++) {
-        cout << numbers[i] << " ";
+        cout << results1[i] << " ";
     }
 
     return 0;
